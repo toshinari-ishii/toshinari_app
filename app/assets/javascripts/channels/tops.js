@@ -1,0 +1,3 @@
+$(function () {
+  $('header-title').fadeIn();
+})

@@ -1,0 +1,60 @@
+*{
+  margin:0;
+  padding:0;
+  }
+
+.header{
+  height: 90px;
+  width: 100vw;
+  padding-top: 10px;
+    background-size: cover;
+    opacity: 0.8;
+
+}
+
+.header h1{
+  font-size: 70px;
+  text-align: center;
+  font-family: 'SignPainter';
+  font-size: 70px;
+  padding-top: 10px;
+  color:black;
+
+}
+
+.main{
+  height:500px;
+  width: 100%;
+  background-color: peachpuff;
+  opacity: 0.5;
+}
+
+.footer{
+  height: 140px;
+  width: 100vw;
+  background-size: cover;
+  opacity: 0.7;
+}
+ul{
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 40px;
+  font-family: 'SignPainter';
+  cursor: pointer;  
+  :hover{
+    color: mediumturquoise;
+    cursor: pointer;
+	  transform: translateY(7px);
+  }
+}
+
+ul a{
+  text-decoration: none;
+  color: black;
+  
+}
+
+
+
