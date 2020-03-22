@@ -1,17 +1,44 @@
-<div class=header>
-  <h1 class="header-title">Toshinari's Portfolio</h1>
-</div>
+<!DOCTYPE html>
+<html lang="ja">
 
-<div class="main">
+<head>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toshinari's Portfolio</title>
+</head>
 
-</div>
+<body>
+  <div class="start">
+    <p><img src="assets/TOSHINARI PO3.png" alt=""></p>
+  </div>
+  <div class=header>
+    <h1 class="header-title">Toshinari's Portfolio</h1>
+  </div>
 
-<div class="footer">
-  <ul>
-    <li class="btn"><a href="https://twitter.com/TOSHINARI_1994">Twitter</a></li>
-    <li class="btn"><a href="https://github.com/toshinari-ishii">Github</a></li>
-    <li class="btn"><a href="https://www.mixcloud.com/DJ__DREAM/">MixCloud</a></li>
-    <li class="btn"><a href="https://soundcloud.com/peo9ruezcl0d">SoundCloud</a></li>
-  </ul>
+  <div class="main">
+    <div class="main_backimg"></div>
 
-</div>
+  </div>
+
+  <div class="footer">
+    <ul>
+      <li class="btn"><a href="https://twitter.com/TOSHINARI_1994">Twitter</a></li>
+      <li class="btn"><a href="https://github.com/toshinari-ishii">Github</a></li>
+      <li class="btn"><a href="https://www.mixcloud.com/DJ__DREAM/">MixCloud</a></li>
+      <li class="btn"><a href="https://soundcloud.com/peo9ruezcl0d">SoundCloud</a></li>
+    </ul>
+  </div>
+  <script>
+    $(function () {
+      setTimeout(function () {
+        $('.start p').fadeIn(4000);
+      }, 100); //0.5秒後にロゴをフェードイン!
+      setTimeout(function () {
+        $('.start').fadeOut(4500);
+      }, 2000); //2.5秒後にロゴ含め真っ白背景をフェードアウト！
+    });
+  </script>
+</body>
+
+</html>

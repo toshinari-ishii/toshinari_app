@@ -3,6 +3,29 @@
   padding:0;
   }
 
+  .start {
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9000;
+    float: left;
+  }
+  .start p {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+    float: left;
+    background-size: cover;
+  }
+
 .header{
   height: 90px;
   width: 100vw;
@@ -19,23 +42,30 @@
   font-size: 70px;
   padding-top: 10px;
   color:black;
+  margin-right:30px;
 
 }
 
 .main{
   height:500px;
   width: 100%;
-  background-color: peachpuff;
+}
+.main_backimg{
+  height:500px;
+  width: 100%;
+  background-image:url("https://art11111.com/image/wallpaper/HD/42.jpg");
   opacity: 0.5;
 }
 
+
+
 .footer{
-  height: 140px;
+  height: 100px;
   width: 100vw;
   background-size: cover;
   opacity: 0.7;
 }
-ul{
+.footer ul{
   padding: 50px;
   display: flex;
   justify-content: space-around;
@@ -55,6 +85,8 @@ ul a{
   color: black;
   
 }
+
+
 
 
 
