@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+
+ @import "slick-theme"; 
+ @import "slick";
+ @import "tops";
+ @import "slide";
+
+ 

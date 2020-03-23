@@ -3,7 +3,6 @@
 
 <head>
   <meta charset="UTF-8">
-  <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Toshinari's Portfolio</title>
 </head>
@@ -13,15 +12,21 @@
     <p><img src="assets/TOSHINARI PO3.png" alt=""></p>
   </div>
   <div class=header>
-    <h1 class="header-title">Toshinari's Portfolio</h1>
+    <h3 class="header-title">Toshinari's Portfolio</h3>
   </div>
 
   <div class="main">
-    <div class="main_backimg"></div>
+    <div class="main-img">
+      <div class="main-photo"><img src="assets/IMG_5018.png" alt="" width="260" height="280" class="main-photo">
+      </div>
+      <div class="text">Name:Toshinari Ishii <br>Age:25 <br>Bath:1994.7.15</div>
 
+
+
+    </div>
   </div>
 
-  <div class="footer">
+  <div class="main-bar">
     <ul>
       <li class="btn"><a href="https://twitter.com/TOSHINARI_1994">Twitter</a></li>
       <li class="btn"><a href="https://github.com/toshinari-ishii">Github</a></li>
@@ -29,16 +34,37 @@
       <li class="btn"><a href="https://soundcloud.com/peo9ruezcl0d">SoundCloud</a></li>
     </ul>
   </div>
-  <script>
+  <div class="main-img">
+    <div class="slide-wrapper">
+      <ul class="slides">
+        <li class="slide active"><img src="assets/IMG_0085.png" width="1000" height="350"></li>
+        <li class="slide"><img src="assets/IMG_2282.png" width="1000" height="350"></li>
+        <li class="slide"><img src="assets/START.png" width="1000" height="350"></li>
+        <li class="slide"><img src="assets/IMG_9220.png" width="1000" height="350"></li>
+      </ul>
+      <div class="index-btn-wrapper">
+        <div class="index-btn"></div>
+        <div class="index-btn"></div>
+        <div class="index-btn"></div>
+        <div class="index-btn"></div>
+      </div>
+    </div>
+  </div>
+  <!-- <script>
     $(function () {
       setTimeout(function () {
         $('.start p').fadeIn(4000);
-      }, 100); //0.5秒後にロゴをフェードイン!
+      }, 500); //0.5秒後にロゴをフェードイン!
       setTimeout(function () {
-        $('.start').fadeOut(4500);
-      }, 2000); //2.5秒後にロゴ含め真っ白背景をフェードアウト！
+        $('.start').fadeOut(2000);
+      }, 4500); //2.5秒後にロゴ含め真っ白背景をフェードアウト！
     });
-  </script>
+  </script> -->
+  <script src="js/jquery-2.2.4.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/tops.js"></script>
+  <script src="js/main.js"></script>
+
 </body>
 
 </html>

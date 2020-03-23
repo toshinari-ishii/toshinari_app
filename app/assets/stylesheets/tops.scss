@@ -3,28 +3,28 @@
   padding:0;
   }
 
-  .start {
-    background: #FFF;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 9000;
-    float: left;
-  }
-  .start p {
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-    z-index: 9999;
-    height: 100%;
-    width: 100%;
-    float: left;
-    background-size: cover;
-  }
+  // .start {
+  //   background: white;
+  //   position: fixed;
+  //   top: 0;
+  //   left: 0;
+  //   height: 100%;
+  //   width: 100%;
+  //   z-index: 9000;
+  //   float: left;
+  // }
+  // .start p {
+  //   position: fixed;
+  //   left: 50%;
+  //   top: 50%;
+  //   transform: translate(-50%, -50%);
+  //   display: none;
+  //   z-index: 9999;
+  //   height: 100%;
+  //   width: 100%;
+  //   float: left;
+  //   text-align: center;
+  // }
 
 .header{
   height: 90px;
@@ -35,47 +35,71 @@
 
 }
 
-.header h1{
+.header h3{
   font-size: 70px;
   text-align: center;
   font-family: 'SignPainter';
   font-size: 70px;
   padding-top: 10px;
   color:black;
-  margin-right:30px;
+  font-weight: 10px;
+  // margin-right:30px;
 
 }
 
 .main{
-  height:500px;
-  width: 100%;
-}
-.main_backimg{
-  height:500px;
+  height:450px;
   width: 100%;
   background-image:url("https://art11111.com/image/wallpaper/HD/42.jpg");
-  opacity: 0.5;
+}
+.main-img{
+  height: 100%;
+  background: rgba(255,255,255,0.5);
+}
+.main-photo{
+  border-radius: 20% 100px 0% 50%;
+  padding-top:20px;
+  padding-left: 240px;
+  box-shadow: 10px 10px 10px 10px rgba(175, 185, 224, 0.4);  
+  opacity: 0.9;
+}
+.text{
+  width: 300px;
+  height: 100px;
+  background-color: grey;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 460px;
+  // height: 100%;
+  background: rgba(255,255,255,0.5);
+  font-family: serif;
+  color: rgb(14, 38, 114);
 }
 
 
 
-.footer{
-  height: 100px;
+
+
+.main-bar{
+  height: 80px;
   width: 100vw;
   background-size: cover;
   opacity: 0.7;
+  border-bottom: black dotted  ;
 }
-.footer ul{
-  padding: 50px;
+.main-bar ul{
+  padding-top: 20px;
+  padding-bottom: 5px;
   display: flex;
   justify-content: space-around;
   list-style: none;
   font-size: 40px;
   font-family: 'SignPainter';
-  cursor: pointer;  
+  // cursor: pointer;  
   :hover{
     color: mediumturquoise;
-    cursor: pointer;
+    // cursor: pointer;
 	  transform: translateY(7px);
   }
 }
@@ -85,6 +109,7 @@ ul a{
   color: black;
   
 }
+
 
 
 
