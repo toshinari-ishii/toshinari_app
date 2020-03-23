@@ -1,0 +1,52 @@
+.myapp{
+  height: 800px;
+  width: 1280px;
+  background-image:url("https://tech-camp.in/note/wp-content/uploads/2019/07/%E3%81%AA%E3%82%93%E3%81%AF%E3%82%99%E3%82%B9%E3%82%AB%E3%82%A4%E3%82%AADSC01917-1024x683.jpg");
+  background-size: 1300px 800px;
+  float: left;
+  padding: 20px 0px;
+}
+.myapp-image{
+  height: 100%;
+  background: rgba(255,255,255,0.5);
+}
+.myapp-header{
+  height: 100px;
+  width: 500px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: auto;  
+}
+.myapp-header a{
+  text-decoration: none;
+  color: black;
+}
+
+.myapp-gif{
+  margin: auto;
+  width: 800px;
+  height: 400px;
+}
+
+.myapp-textbox{
+  height: 270px;
+  width: 600px;
+  background-color: rgba(53, 49, 49, 0.466);
+  margin: auto;
+  padding-bottom: 0px;
+  margin-top: 20px;
+}
+.myapp-box{
+  height: 100%;
+  background: rgba(255,255,255,0.5);
+
+}
+.myapp-text li{
+  list-style: none;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Didot';
+  font-family: 'TsukuBRdGothic-Regular';
+}

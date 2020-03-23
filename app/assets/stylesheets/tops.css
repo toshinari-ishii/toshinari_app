@@ -3,28 +3,28 @@
   padding:0;
   }
 
-  // .start {
-  //   background: white;
-  //   position: fixed;
-  //   top: 0;
-  //   left: 0;
-  //   height: 100%;
-  //   width: 100%;
-  //   z-index: 9000;
-  //   float: left;
-  // }
-  // .start p {
-  //   position: fixed;
-  //   left: 50%;
-  //   top: 50%;
-  //   transform: translate(-50%, -50%);
-  //   display: none;
-  //   z-index: 9999;
-  //   height: 100%;
-  //   width: 100%;
-  //   float: left;
-  //   text-align: center;
-  // }
+   .start {
+     background: white;
+     position: fixed;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     z-index: 9000;
+     float: left;
+   }
+   .start p {
+     position: fixed;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+     display: none;
+     z-index: 9999;
+     height: 100%;
+     width: 100%;
+     float: left;
+     text-align: center;
+   }
 
 .header{
   height: 90px;
@@ -59,7 +59,7 @@
 .main-photo{
   border-radius: 20% 100px 0% 50%;
   padding-top:20px;
-  padding-left: 260px;
+  padding-left: 255px;
   box-shadow: 10px 10px 10px 10px rgba(175, 185, 224, 0.4);  
   opacity: 0.9;
 }
@@ -70,7 +70,7 @@
   text-align: center;
   font-size: 20px;
   margin-top: 10px;
-  margin-left: 500px;
+  margin-left: 490px;
   // height: 100%;
   background: rgba(255,255,255,0.5);
   font-family: serif;
@@ -86,7 +86,6 @@
   width: 100vw;
   background-size: cover;
   opacity: 0.7;
-  border-bottom: black dotted  ;
 }
 .main-bar ul{
   padding-top: 20px;
@@ -96,12 +95,13 @@
   list-style: none;
   font-size: 40px;
   font-family: 'SignPainter';
-  // cursor: pointer;  
-  :hover{
-    color: mediumturquoise;
-    // cursor: pointer;
-	  transform: translateY(7px);
-  }
+  cursor: pointer;  
+}
+
+ .main-bar ul :hover{
+  color: mediumturquoise;
+  cursor : pointer;
+  transform : translateY(7px);
 }
 
 ul a{
