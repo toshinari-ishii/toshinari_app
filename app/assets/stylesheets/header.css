@@ -1,0 +1,20 @@
+.header{
+  height: 90px;
+  width: 100vw;
+  padding-top: 10px;
+    background-size: cover;
+    opacity: 0.8;
+
+}
+
+.header h3{
+  font-size: 70px;
+  text-align: center;
+  font-family: 'SignPainter';
+  font-size: 70px;
+  padding-top: 10px;
+  color:black;
+  font-weight: 10px;
+  // margin-right:30px;
+
+}

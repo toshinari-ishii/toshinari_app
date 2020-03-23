@@ -1,14 +1,17 @@
 .slide-wrapper {
   text-align: center;
-  width: 100%;
-  margin: 0 auto;
+  width: 1300px;
+  /* margin-left: 140px; */
   color: #5e6f84;
-  padding: 60px 0;
+  padding: 20px 0;
+  border-bottom:  black dotted;
+
 }
 
 .slide-title {
-  font-size: 40px;
-  margin-bottom: 30px;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
 }
 
 .change-btn-wrapper {
@@ -47,9 +50,17 @@
 }
 
 .slide img {
-  width: 600px;
-  height: 300;
+  width: 340px;
+  height: 300px;
   border-radius: 5px;
+}
+
+.myapp{
+  width: 340px;
+  height: 300px;
+  border-radius: 5px;
+  margin-left: 500px;
+  margin-bottom: 300px;
 }
 
 .index-btn-wrapper {
@@ -60,7 +71,7 @@
 .index-btn {
   display: inline-block;
   color: gray;
-  background-color: #e0f5ff;
+  background-color: #10232c;
   width: 20px;
   padding: 6px 0;
   margin: 0 5px;
