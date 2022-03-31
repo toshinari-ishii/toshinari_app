@@ -10,7 +10,7 @@ gem 'rails', '~> 5.2.3'
 group :development, :test do
   gem 'sqlite3' #do ~ end内部に追加。他のgemは残してください。
 end
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 4.3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
